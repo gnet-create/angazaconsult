@@ -7,6 +7,7 @@ import ConsultancyDetail from './pages/ConsultancyDetail';
 import MarketAccessDetail from './pages/MarketAccessDetail';
 import ValueAdditionDetail from './pages/ValueAdditionDetail';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value';
 
@@ -38,6 +39,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }

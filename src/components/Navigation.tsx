@@ -28,10 +28,15 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer gap-3"
             onClick={() => handleNavigate('home')}
           >
-            <span className="text-2xl font-bold" style={{ color: '#61B471' }}>
+            <img
+              src="/angazalogo.png"
+              alt="Angaza Logo"
+              className="h-10 w-auto"
+            />
+            <span className="text-xl md:text-2xl font-bold" style={{ color: '#61B471' }}>
               Angaza Consultants
             </span>
           </div>
