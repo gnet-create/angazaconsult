@@ -15,7 +15,7 @@ export default function FeaturesPage({ onNavigate }: FeaturesPageProps) {
       description:
         'Angaza is focused on technology and innovation. The Angaza SATFARM app is a smart agriculture platform integrating IoT sensors, satellite data, and GenAI to deliver real-time crop, livestock, and irrigation advisories to smallholder farmers. It enables data-driven farming, improves yields, and supports climate resilience.',
       page: 'technology' as Page,
-      image: 'https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/5076531/pexels-photo-5076531.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       id: 'consultancy',
@@ -24,7 +24,7 @@ export default function FeaturesPage({ onNavigate }: FeaturesPageProps) {
       description:
         'Angaza is an agri investment and agri-business advisory firm specialised in helping create world class farming and integrated agribusinesses across the value chain, with a focus in sub-saharan Africa. We focus on Market Research and Analysis, Marketing Strategy Development, Market Linkages, Distribution Channel Development and Trade Facilitation, Capacity Building, Financial and Value Chain Services, Sustainable Agriculture and Agroecological practices.',
       page: 'consultancy' as Page,
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/8062336/pexels-photo-8062336.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       id: 'market',
@@ -33,7 +33,7 @@ export default function FeaturesPage({ onNavigate }: FeaturesPageProps) {
       description:
         'Angaza connects rural farmers to reliable markets through contract farming, ensuring fair prices, sustainable practices, and improved incomes. By cultivating high-value crops such as avocados, soybeans, and mucuna beans, we enable farmers to create market access for farmers, enabling them to tap into lucrative opportunities while promoting economic growth and sustainability.',
       page: 'market' as Page,
-      image: 'https://images.pexels.com/photos/264537/pexels-photo-264537.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
     {
       id: 'value',
@@ -42,7 +42,7 @@ export default function FeaturesPage({ onNavigate }: FeaturesPageProps) {
       description:
         'To complete the value chain, Angaza is committed to training, developing, and accelerating groups and SMEs focused on high-value crops such as mucuna beans, soybeans, sunflower and avocados. By transforming these crops into high-demand, market-ready products, Angaza enhances market opportunities, drives increased farmer incomes, and fosters economic empowerment. Through the promotion of sustainable practices, Angaza ensures long-term resilience, environmental stewardship, and financial stability for farming communities.',
       page: 'value' as Page,
-      image: 'https://images.pexels.com/photos/5965592/pexels-photo-5965592.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/8062423/pexels-photo-8062423.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
   ];
 
@@ -52,7 +52,7 @@ export default function FeaturesPage({ onNavigate }: FeaturesPageProps) {
         className="py-20 bg-cover bg-center relative"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(97, 180, 113, 0.85), rgba(97, 180, 113, 0.85)), url('https://images.pexels.com/photos/2889440/pexels-photo-2889440.jpeg?auto=compress&cs=tinysrgb&w=1920')",
+            "linear-gradient(rgba(97, 180, 113, 0.85), rgba(97, 180, 113, 0.85)), url('https://images.pexels.com/photos/5530914/pexels-photo-5530914.jpeg?auto=compress&cs=tinysrgb&w=1920')",
         }}
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

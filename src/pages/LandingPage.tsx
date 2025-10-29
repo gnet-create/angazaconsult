@@ -50,7 +50,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
         className="relative h-screen flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/2132171/pexels-photo-2132171.jpeg?auto=compress&cs=tinysrgb&w=1920')",
+            "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/5529605/pexels-photo-5529605.jpeg?auto=compress&cs=tinysrgb&w=1920')",
         }}
       >
         <div className="text-center text-white px-4 max-w-5xl">
@@ -167,7 +167,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
         className="py-20 bg-cover bg-center relative"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(97, 180, 113, 0.9), rgba(97, 180, 113, 0.9)), url('https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=1920')",
+            "linear-gradient(rgba(97, 180, 113, 0.9), rgba(97, 180, 113, 0.9)), url('https://images.pexels.com/photos/5530914/pexels-photo-5530914.jpeg?auto=compress&cs=tinysrgb&w=1920')",
         }}
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -178,7 +178,12 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
             Join Angaza Consultants and be part of a purpose-driven team transforming rural communities. Empower farmers with sustainable practices, create market opportunities, and drive economic growth. At Angaza, your work directly impacts lives, promotes environmental resilience, and builds a brighter future for farming families. Together, let's create meaningful, lasting change!
           </p>
           <button
-            onClick={() => onNavigate('about')}
+            onClick={() => {
+              const footer = document.getElementById('contact');
+              if (footer) {
+                footer.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
             className="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg inline-flex items-center"
           >
             CONTACT US NOW
