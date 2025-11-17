@@ -71,7 +71,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="text-center text-gray-400 text-sm">
-            © {new Date().getFullYear()} Angaza Consultants. All rights reserved.
+            © {new Date().getFullYear()} Angaza Nexus. All rights reserved.
           </p>
         </div>
       </div>

@@ -55,7 +55,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
       >
         <div className="text-center text-white px-4 max-w-5xl">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            WELCOME TO ANGAZA CONSULTANTS
+            WELCOME TO ANGAZA NEXUS
           </h1>
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed">
             Empowering rural farming communities through sustainable agriculture, market access, and innovative technology. Creating pathways to prosperity for over 200,000 youth and women by 2030.
@@ -101,7 +101,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
                   As a professional working in Kakamega, Beatrice witnessed firsthand the pervasive poverty affecting rural communities. Determined to make a difference, she began training farmers on commercial crop farming, aiming to empower them with knowledge and sustainable practices. Her journey into agriculture also revealed another pressing issue: the poor quality of soils, degraded by years of sugarcane monocropping in the region.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Motivated by these challenges, Beatrice founded Angaza Consultants with a humble start but a bold vision to empower over 200,000 youth and women on pathways to prosperity by 2030.
+                  Motivated by these challenges, Beatrice founded Angaza with a humble start but a bold vision to empower over 200,000 youth and women on pathways to prosperity by 2030.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   In April 2024, we launched our agricultural program in Kakamega, focusing on empowering smallholder farmers through sustainable farming practices, market access, and value addition. From these humble beginnings, like-minded partners have joined hands with Angaza, collaborating on various impactful programs to address challenges such as soil health, market access, and economic empowerment.
@@ -175,7 +175,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
             Want to Work with Us?
           </h2>
           <p className="text-xl text-white mb-8 leading-relaxed">
-            Join Angaza Consultants and be part of a purpose-driven team transforming rural communities. Empower farmers with sustainable practices, create market opportunities, and drive economic growth. At Angaza, your work directly impacts lives, promotes environmental resilience, and builds a brighter future for farming families. Together, let's create meaningful, lasting change!
+            Join Angaza Nexus and be part of a purpose-driven team transforming rural communities. Empower farmers with sustainable practices, create market opportunities, and drive economic growth. At Angaza, your work directly impacts lives, promotes environmental resilience, and builds a brighter future for farming families. Together, let's create meaningful, lasting change!
           </p>
           <button
             onClick={() => {

@@ -1,7 +1,7 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
-type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value';
+type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value' | 'impact';
 
 interface NavigationProps {
   currentPage: Page;
@@ -13,8 +13,9 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
 
   const navItems: { label: string; page: Page }[] = [
     { label: 'Home', page: 'home' },
-    { label: 'Features', page: 'features' },
+    { label: 'Programs', page: 'features' },
     { label: 'About Us', page: 'about' },
+    { label: 'Impact', page: 'impact' },
   ];
 
   const handleNavigate = (page: Page) => {
@@ -37,7 +38,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               className="h-10 w-auto"
             />
             <span className="text-xl md:text-2xl font-bold" style={{ color: '#61B471' }}>
-              Angaza Consultants
+              Angaza Nexus
             </span>
           </div>
 

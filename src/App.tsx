@@ -6,10 +6,11 @@ import TechnologyDetail from './pages/TechnologyDetail';
 import ConsultancyDetail from './pages/ConsultancyDetail';
 import MarketAccessDetail from './pages/MarketAccessDetail';
 import ValueAdditionDetail from './pages/ValueAdditionDetail';
+import ImpactPage from './pages/ImpactPage';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
-type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value';
+type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value' | 'impact';
 
 function App() {
   const [currentPage, setCurrentPage] = useState<Page>('home');
@@ -30,6 +31,8 @@ function App() {
         return <MarketAccessDetail onNavigate={setCurrentPage} />;
       case 'value':
         return <ValueAdditionDetail onNavigate={setCurrentPage} />;
+      case 'impact':
+        return <ImpactPage />;
       default:
         return <LandingPage onNavigate={setCurrentPage} />;
     }

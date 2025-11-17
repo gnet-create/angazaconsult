@@ -1,6 +1,6 @@
 import { Cpu, Users, ShoppingBag, TrendingUp, ArrowRight } from 'lucide-react';
 
-type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value';
+type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value' | 'impact';
 
 interface FeaturesPageProps {
   onNavigate: (page: Page) => void;
@@ -57,7 +57,7 @@ export default function FeaturesPage({ onNavigate }: FeaturesPageProps) {
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
-            Features of Angaza
+            Our Programs
           </h1>
           <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
             Comprehensive solutions for sustainable agriculture and rural development

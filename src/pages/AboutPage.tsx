@@ -184,7 +184,7 @@ export default function AboutPage() {
             </h2>
           </div>
           <p className="text-xl text-white max-w-4xl mx-auto leading-relaxed">
-            Join Angaza Consultants and be part of a purpose-driven team transforming rural communities. Empower farmers with sustainable practices, create market opportunities, and drive economic growth. At Angaza, your work directly impacts lives, promotes environmental resilience, and builds a brighter future for farming families. Together, let's create meaningful, lasting change!
+            Join Angaza Nexus and be part of a purpose-driven team transforming rural communities. Empower farmers with sustainable practices, create market opportunities, and drive economic growth. At Angaza, your work directly impacts lives, promotes environmental resilience, and builds a brighter future for farming families. Together, let's create meaningful, lasting change!
           </p>
         </div>
       </section>

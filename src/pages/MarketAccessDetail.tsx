@@ -1,6 +1,6 @@
 import { ArrowLeft, ShoppingBag, Users, TrendingUp, Globe } from 'lucide-react';
 
-type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value';
+type Page = 'home' | 'features' | 'about' | 'technology' | 'consultancy' | 'market' | 'value' | 'impact';
 
 interface MarketAccessDetailProps {
   onNavigate: (page: Page) => void;
@@ -22,7 +22,7 @@ export default function MarketAccessDetail({ onNavigate }: MarketAccessDetailPro
             className="mb-8 text-white hover:text-gray-200 transition-colors inline-flex items-center"
           >
             <ArrowLeft className="mr-2" size={20} />
-            Back to Features
+            Back to Programs
           </button>
           <div className="flex items-center mb-6">
             <ShoppingBag size={64} className="text-white mr-6" />
@@ -121,7 +121,7 @@ export default function MarketAccessDetail({ onNavigate }: MarketAccessDetailPro
               style={{ backgroundColor: '#61B471' }}
             >
               <ArrowLeft className="mr-2" size={20} />
-              Back to Features
+              Back to Programs
             </button>
           </div>
         </div>
